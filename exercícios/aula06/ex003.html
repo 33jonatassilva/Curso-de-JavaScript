@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body {
+            background-color: rgb(105, 105, 173);
+            color: white;
+            font: normal 20px Arial;
+        }
+        h1 {
+            color: rgb(255, 212, 22);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição</p>
+    <script>
+
+
+        /*
+        !!!!!! CONVERTENDO STRING PARA NUMBER-INT OR FLOAT
+
+        var n1 = Number.parseInt(window.prompt('Digite um número: ')); // String!
+        var n2 = Number.parseInt(window.prompt('Digite outro número: ')); // String
+        */
+
+
+        // passando as Strings para int ou float por meio do comando Number
+
+        /* 
+        Pode ser feito de várias formas, entre elas com o método Number.parseInt (para inteiros)
+        Number.parseFloat (para números reais) ou só Number e aí o compilador decide qual tipo será
+        entre int e float.
+
+
+        var n1 = Number.parseInt(window.prompt('Digite um número: ')); // String!
+        var n2 = Number.parseInt(window.prompt('Digite outro número: ')); // String
+
+
+
+        !!!!!! CONVERTENDO NUMBER-INT OR FLOAT PARA STRING
+
+
+        String(n)
+
+        n.toString()
+
+        !!!!!!!!!!! PLACEHOLDER no JavaScript
+
+        um tipo de .format do python no JavaScript é o placeholder utilizando ${n}
+        template string
+
+        exemplo:
+        
+        
+
+
+        `O aluno ${nome} com ${idade} anos tirou a nota ${nota}.`
+
+        Usando concatenação ficaria
+
+        'O aluno' + ${nome} 'com' + ${idade} 'anos tirou a nota' + ${nota}'.'
+
+        ATENÇÃO!!! NÃO SE ESQUEÇA DA CRASE
+        
+        */
+
+
+        var n1 = Number(window.prompt('Digite um número: ')); 
+        var n2 = Number(window.prompt('Digite outro número: ')); 
+
+        
+        var s = n1 + n2;
+        window.alert('A soma dos valores é ' + s);
+    </script>
+</body>
+</html>
