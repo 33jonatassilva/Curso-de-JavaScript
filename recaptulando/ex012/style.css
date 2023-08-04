@@ -3,6 +3,7 @@
 
 body {
     background: rgb(107, 107, 227);
+    text-align: center;
 }
 
 header {
@@ -23,4 +24,8 @@ section {
 footer {
     text-align: center;
     color: white;
+}
+
+img {
+    text-align: center;
 }
